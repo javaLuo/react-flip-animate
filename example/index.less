@@ -1,0 +1,21 @@
+.flip-box {
+  display: block;
+  position: relative;
+  list-style: none;
+  li {
+    display: inline-block;
+    padding: 2px;
+    width: 10px;
+    height: 10px;
+    border: solid 1px #ccc;
+    margin: 2px;
+    font-size: 16px;
+    color: #222;
+  }
+  .trans-enter {
+    transform: translate(0, 20px) scale(0, 0);
+  }
+  .trans-leave {
+    transform: translate(0, -20px) scale(0, 0);
+  }
+}
