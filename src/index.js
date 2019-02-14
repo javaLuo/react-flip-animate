@@ -65,8 +65,8 @@ export default class Flip extends React.PureComponent {
 
       if (!item.getAttribute('data-remove')) {
         data[no] = item.getBoundingClientRect();
-        item.style.transform = '';
-        item.style.webkitTransform = '';
+        item.style.transform = 'translate(0,0)';
+        item.style.webkitTransform = 'translate(0,0)';
       }
     });
     this.f = data;
@@ -79,8 +79,8 @@ export default class Flip extends React.PureComponent {
 
     doms.forEach((item, index) => {
       if (!item.getAttribute('data-remove')) {
-        item.style.transitionDuration = 0;
-        item.style.webkitTransitionDuration = 0;
+        item.style.transition = '';
+        item.style.webkitTransition = '';
         let no = item.getAttribute('data-flip-no');
         const l = item.getBoundingClientRect();
 

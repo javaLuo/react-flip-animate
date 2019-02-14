@@ -1,6 +1,6 @@
 {
-  "name": "vue-puzzle-vcode",
-  "version": "0.0.1",
+  "name": "react-flip",
+  "version": "0.1.1",
   "description": "react flip 动画实现",
   "main": "dist/main.js",
   "scripts": {

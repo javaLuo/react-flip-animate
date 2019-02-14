@@ -46,7 +46,7 @@ class Test extends React.Component {
     return (
       <div>
         <div className="box" style={{ width: '500px' }}>
-          <Flip tag="ul" className="flip-box" transClass="trans" speed="6000">
+          <Flip tag="ul" className="flip-box" transClass="trans" speed="2000">
             {(() => {
               return this.state.data.map(item => <li key={item}>{item}</li>);
             })()}
