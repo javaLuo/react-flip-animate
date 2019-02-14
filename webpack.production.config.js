@@ -11,7 +11,7 @@ module.exports = {
     path: path.resolve(__dirname, './dist'), // 将打包好的文件放在此路径下，dev模式中，只会在内存中存在，不会真正的打包到此路径
     filename: '[name].js', //编译后的文件名字
     publicPath: '/dist/',
-    library: 'react-flip',
+    library: 'react-flip-animate',
     libraryTarget: 'umd',
     umdNamedDefine: true,
   },

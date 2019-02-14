@@ -1,6 +1,6 @@
 {
-  "name": "react-flip",
-  "version": "0.1.1",
+  "name": "react-flip-animate",
+  "version": "0.0.1",
   "description": "react flip 动画实现",
   "main": "dist/main.js",
   "scripts": {
@@ -11,7 +11,7 @@
   "private": false,
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/javaLuo/react-flip.git"
+    "url": "git+https://github.com/javaLuo/react-flip-animate.git"
   },
   "keywords": [
     "react",
@@ -20,9 +20,9 @@
   "author": "L",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/javaLuo/react-flip/issues"
+    "url": "https://github.com/javaLuo/react-flip-animate/issues"
   },
-  "homepage": "https://github.com/javaLuo/react-flip#readme",
+  "homepage": "https://github.com/javaLuo/react-flip-animate#readme",
   "dependencies": {
     "react": "^16.8.1",
     "react-dom": "^16.8.1"
